@@ -1,0 +1,11 @@
+[package]
+name = "ldbc_bench"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+graph_store = { path = "../graph_store" }
+lazy_static = "1.3.0"
+pegasus = { path = "../engine/pegasus/pegasus" }
+pegasus_common =  { path = "../engine/pegasus/common" }
+structopt = "0.3"
